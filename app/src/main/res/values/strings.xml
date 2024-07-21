@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PEMKOS</string>
+    <string name="abk">Anak Berkebutuhan Khusus</string>
+    <string name="menu_room">Kamar</string>
+    <string name="menu_tenant">Anak Kos</string>
+    <string name="menu_bill">Tagihan</string>
+    <string name="menu_payment">Pemabayaran</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

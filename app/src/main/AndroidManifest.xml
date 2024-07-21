@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.im.pemkos">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".BaseApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ABK"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ui.TransaksiBerhasilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.midtrans.MidtransActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:theme="@style/Theme.ABK.NoActionBar.Light"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ABK.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.kost.KostActivity"
+            android:theme="@style/Theme.ABK.NoActionBar" />
+        <activity
+            android:name=".ui.TenantMainActivity"
+            android:theme="@style/Theme.ABK.NoActionBar" />
+        <activity
+            android:name=".ui.tenant.add.AddTenantActivity"
+            android:theme="@style/Theme.ABK.NoActionBar" />
+        <activity
+            android:name=".ui.tenant.edit.EditTenantActivity"
+            android:theme="@style/Theme.ABK.NoActionBar" />
+        <activity
+            android:name=".ui.tenant.detail.DetailTenantActivity"
+            android:theme="@style/Theme.ABK.NoActionBar" />
+        <activity
+            android:name=".ui.room.detail.DetailRoomActivity"
+            android:theme="@style/Theme.ABK.NoActionBar" />
+        <activity
+            android:name=".ui.room.add.AddRoomActivity"
+            android:theme="@style/Theme.ABK.NoActionBar" />
+        <activity
+            android:name=".ui.room.edit.EditRoomActivity"
+            android:theme="@style/Theme.ABK.NoActionBar" />
+        <activity
+            android:name=".ui.profil.ProfilActivity"
+            android:theme="@style/Theme.ABK.NoActionBar" />
+        <activity
+            android:name=".ui.profil.ubahpassword.UbahPasswordActivity"
+            android:theme="@style/Theme.ABK.NoActionBar" />
+        <activity
+            android:name=".ui.TenantRiwayatActivity"
+            android:theme="@style/Theme.ABK.NoActionBar" />
+    </application>
+
+</manifest>

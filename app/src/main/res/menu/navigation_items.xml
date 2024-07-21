@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/action_room"
+    android:title="@string/menu_room"
+    android:icon="@drawable/ic_home" />
+<item android:id="@+id/action_tenant"
+    android:title="@string/menu_tenant"
+    android:icon="@drawable/ic_person" />
+<item android:id="@+id/action_bill"
+    android:title="@string/menu_bill"
+    android:icon="@drawable/ic_bill" />
+<item android:id="@+id/action_payment"
+    android:title="@string/menu_payment"
+    android:icon="@drawable/ic_card" />
+</menu>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_add"
+        android:title="Tambah"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_bill"
+        android:title="Tagihan Baru"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_kost"
+        android:title="Kos"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/menu_password"
+        android:title="Ubah Password"
+        app:showAsAction="withText"/>
+<!--    <item-->
+<!--        android:id="@+id/menu_panduan"-->
+<!--        android:title="Panduan Aplikasi"-->
+<!--        app:showAsAction="withText"/>-->
+    <item
+            android:id="@+id/menu_logout"
+            android:title="Logout"
+        app:showAsAction="withText"/>
+
+</menu>
